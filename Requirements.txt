@@ -1,1 +1,28 @@
-404: Not Found
+Download wireshark on this web site "https://www.wireshark.org/download.html"
+
+Install Required Packages:
+
+Open Command Prompt and run the following commands to install the required packages:
+sh
+Copy code:
+pip install tkinter pyshark requests
+Save the Script:
+
+Save the above script as stun_packet_extractor.py on your computer.
+Create an Executable using PyInstaller:
+
+Install PyInstaller if you haven't already:
+sh
+Copy code
+pip install pyinstaller
+Navigate to the directory where stun_packet_extractor.py is saved.
+Run the following command to create the executable:
+sh
+Copy code
+pyinstaller --onefile stun_packet_extractor.py
+After the process is complete, you will find the executable file in the dist folder within your project directory.
+Run the Executable:
+
+Navigate to the dist folder and double-click the stun_packet_extractor.exe file to run the program
+
+>>>>>>>>>>>>created by Moataz Younes>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
